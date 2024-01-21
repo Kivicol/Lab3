@@ -46,6 +46,9 @@ public abstract class AbsEnt implements IntObj, HonestReaction {
     public void entCondition(String condition) {
         System.out.print("Состояние объекта \"" + this.name.toLowerCase() + "\": " + condition);;
     }
+    public void entCondition() {
+        System.out.print("Состояние объекта \"" + this.name.toLowerCase() + "\": ");;
+    }
     public String reactiontothis(Reaction react) {
         String condition = "";
         this.reaction = react;

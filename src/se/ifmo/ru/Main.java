@@ -20,7 +20,7 @@ public class Main {
         shelves.setType(Places.SHELVES);
 
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------");
 
         Entity uttervoid = new Entity();
         Entity friends = new Entity("Друзья");
@@ -33,7 +33,7 @@ public class Main {
         Entity clothes = new Entity("Вещи");
         Entity kozlik = new Entity("Козлик");
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------");
 
         friends.chracteristic(Condition.DOES);
         friends.action(Actions.GETDOWN);
@@ -45,12 +45,12 @@ public class Main {
         friends.action(Actions.ENTER);
         System.out.println("(" + room.getType().getName() + ")");
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------");
 
         neznayka.chracteristic(Condition.LOOKRND);
         room.placeCondition(neznayka.reactiontothis(Reaction.LIKEKATALAZHKA));
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------");
 
         room.whatsgoing();
         korotyshki.chracteristic(Condition.DOES);
@@ -68,9 +68,9 @@ public class Main {
         inhabitants.chracteristic(Condition.DOES);
         inhabitants.action(10,Actions.BAKEPOTATO, Actions.BOILSOUP, Actions.FRYPANCAKES, Actions.HANGPANCAKES);
         pipes.entCondition(clothes.getName().toLowerCase());
-        System.out.println(Actions.HANGMANY.getName());
+        System.out.println(Actions.HANGMANY.getName().toLowerCase());
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("----------------------------------------------------------------------");
 
         room.placeCondition(neznayka.reactiontothis(45, Reaction.SMELLY));
         neznayka.chracteristic(Condition.EXISTS);

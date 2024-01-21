@@ -2,23 +2,23 @@ package se.ifmo.ru.objects;
 
 
 public enum Actions {
-    GETDOWN(" спуск по "),
-    ENTER(" очутиться в"),
-    ENTERMLTPL(" войти в"),
-    GETTOSOLE(" попасть в"),
-    STRETCH(" тянуться"),
-    HANGSOLE(" висеть"),
-    HANGMANY(" висят (много)"),
-    STAND(" стоять"),
-    USEFREEDOM(" пользоваться"),
-    BAKEPOTATO(" печь картошку"),
-    BOILSOUP(" варить похлёбку"),
-    FRYPANCAKES(" жарить коржи"),
-    HANGPANCAKES(" развешивать коржах"),
-    GOTBAD(" поплохело"),
-    CATCH(" подхватить под руки"),
-    REASSURE(" успокоить"),
-    LYING(" лежать");
+    GETDOWN("Спуск"),
+    ENTER("Очутиться"),
+    ENTERMLTPL("Войти"),
+    GETTOSOLE("Попасть"),
+    STRETCH("Тянуться"),
+    HANGSOLE("Висеть"),
+    HANGMANY(" Висят (много)"),
+    STAND("Стоять"),
+    USEFREEDOM("Пользоваться"),
+    BAKEPOTATO("Печь картошку"),
+    BOILSOUP("Варить похлёбку"),
+    FRYPANCAKES("Жарить коржи"),
+    HANGPANCAKES("Развешивать коржи"),
+    GOTBAD("Поплохело"),
+    CATCH("Подхватить"),
+    REASSURE("Успокоить"),
+    LYING("Лежать");
 
     private String name;
     Actions(String name){

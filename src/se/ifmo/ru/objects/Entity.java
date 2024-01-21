@@ -4,6 +4,8 @@ import se.ifmo.ru.places.Place;
 
 import java.util.Objects;
 
+import se.ifmo.ru.exceptions.*;
+
 public class Entity extends AbsEnt {
     public Entity(){
         System.out.println("Что-то было создано?...");
@@ -124,6 +126,9 @@ public class Entity extends AbsEnt {
             odor = smelliness;
         }
     }
+
+
+
     @Override
     public String getName() {
         return name;
