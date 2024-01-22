@@ -22,16 +22,16 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------------");
 
-        Entity uttervoid = new Entity();
-        Entity friends = new Entity("Друзья");
-        Entity korotyshki = new Entity("Группа коротышек");
-        Entity neznayka = new Entity("Незнайка", 100);
+        Things uttervoid = new Things();
+        Things friends = new Things("Друзья");
+        Things korotyshki = new Things("Группа коротышек");
+        Things neznayka = new Things("Незнайка", 100);
         neznayka.checkHP();
-        Entity pipes = new Entity("Трубы");
-        Entity lamp = new Entity("Лампочка");
-        Entity inhabitants = new Entity("Обитатели");
-        Entity clothes = new Entity("Вещи");
-        Entity kozlik = new Entity("Козлик");
+        Things pipes = new Things("Трубы");
+        Things lamp = new Things("Лампочка");
+        Things inhabitants = new Things("Обитатели");
+        Things clothes = new Things("Вещи");
+        Things kozlik = new Things("Козлик");
 
         System.out.println("----------------------------------------------------------------------");
 
